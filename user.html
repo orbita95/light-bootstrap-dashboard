@@ -19,16 +19,26 @@
 		<link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
 		<style>
 			.template-style {
-				padding-top: 40px;
-  			padding-bottom: 40px;
-				background-color: rgba(29,199,234, 0.7);
-
-				background-position: center;
-				background-repeat: no-repeat;
-
-
+				padding-top: 6em;
+    		padding-left: 38em;
 			}
 
+			.tinted-image {
+
+			  width: 1600px;
+			  height: 500px;
+
+			  background:
+			    /* top, transparent red */
+			    linear-gradient(
+			       rgba(29,199,234, 0.7),
+			       rgba(29,199,234, 0.7)
+			    ),
+			    /* bottom, image */
+			    url("BaciaHidro.jpg")
+
+					;
+			}
 
 
 			.form-signin {
@@ -36,9 +46,10 @@
 				border: .2em solid #eee;
 				border-radius: 0.6em;
 				max-width: 330px;
-				padding: 15px;
+				padding: 25px;
 				margin: 0 auto;
 				color: #1DC7EA;
+				position: absolute;
 			}
 			.form-signin .form-signin-heading,
 			.form-signin .checkbox {
@@ -78,7 +89,8 @@
 			}
 		</style>
 </head>
-<body class="template-style" >
+<body class="tinted-image template-style" >
+
 
 	    <div class="container">
 
